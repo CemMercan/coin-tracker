@@ -35,6 +35,7 @@ interface PriceChange {
     previousPrice: number;
     flash: 'increase' | 'decrease' | null;
     lastChange?: 'increase' | 'decrease';
+    timeout?: NodeJS.Timeout;
   }
 }
 
