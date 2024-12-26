@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Crypto Tracker
 
-## Getting Started
+Kripto para takip uygulaması. Canlı fiyatlar, en çok artanlar/azalanlar ve izleme listesi özellikleri ile kripto paraları takip edebilirsiniz.
 
-First, run the development server:
+## Özellikler
+
+- Canlı fiyat güncellemeleri (WebSocket)
+- En çok artanlar/azalanlar listesi
+- İzleme listesi
+- Arama özelliği
+- Responsive tasarım
+- Karanlık/Aydınlık tema desteği
+
+## Teknolojiler
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Radix UI
+- Coincap API
+- WebSocket
+
+## Kurulum
+
+1. Repoyu klonlayın:
+
+```bash
+git clone https://github.com/KULLANICI_ADINIZ/crypto-tracker.git
+```
+
+2. Proje dizinine gidin:
+
+```bash
+cd crypto-tracker
+```
+
+3. Bağımlılıkları yükleyin:
+
+```bash
+npm install
+# veya
+yarn install
+```
+
+4. Geliştirme sunucusunu başlatın:
 
 ```bash
 npm run dev
-# or
+# veya
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bu proje [Vercel](https://vercel.com) üzerinde host edilmektedir.
